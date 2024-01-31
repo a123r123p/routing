@@ -1,0 +1,16 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "color: color-mix(in hsl shorter hue, color percentage, color percentage)",
+          "color: color-mix(in hsl shorter hue, color percentage, color percentage)"
+        ]
+      }
+    ]
+  }
+}
